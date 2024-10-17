@@ -38,9 +38,11 @@ class MyCallable implements Callable<Integer>{
     }
 }
 
-// 4. 通过 Executors 类创建线程池，然后通过线程池去给线程分配任务。
+/*
+    4. 通过 Executors 类创建线程池，然后通过线程池去给线程分配任务。
+    newCachedThreadPool()     创建一个线程池，该线程池根据需要创建新线程，但会在可用时重用以前构造的线程。
 
-
+*/
 public class ThreadDemo {
     public static void main(String[] args) {
         // 1. 继承 Thread 类，重写 run() 方法，创建继承 Thread 类的对象，调用 start() 方法

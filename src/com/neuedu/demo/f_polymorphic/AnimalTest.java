@@ -4,7 +4,7 @@ public class AnimalTest {
     public static void main(String[] args) {
        /*
             多态：一个类型多种形态
-            Java 中买组多态的条件：
+            Java 中满足多态的条件：
             1. 必须要有继承或实现
             2. 子类必须有方法的重写
             3. 父类的引用指向子类的对象

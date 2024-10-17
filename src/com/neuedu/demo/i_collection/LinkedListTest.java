@@ -12,8 +12,6 @@ public class LinkedListTest {
 
     /**
      * 通过 ArrayList 测试添加数据的时间
-     *
-     * @param n n条数据
      */
     public static void getTimeMillisByArrayList(int n) {
         // 获取当前系统时间的毫秒数
@@ -29,8 +27,6 @@ public class LinkedListTest {
 
     /**
      * 通过 LinkedList 测试添加数据的时间
-     *
-     * @param n n条数据
      */
     public static void getTimeMillisByLinkedList(int n) {
         // 获取当前系统时间的毫秒数

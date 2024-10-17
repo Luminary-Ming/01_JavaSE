@@ -1,12 +1,5 @@
 package com.neuedu.demo.e_oop;
 
-public class Ex {
-
-    public static void main(String[] args) {
-        BB b = new BB(5);
-    }
-}
-
 class AA {
     int a;
     public AA(){
@@ -23,6 +16,13 @@ class BB extends AA {
         // 这里默认会有一个
         // super();
         System.out.println("BB有参构造方法");
+    }
+}
+
+public class Ex {
+
+    public static void main(String[] args) {
+        BB b = new BB(5);
     }
 }
 // 输出：
