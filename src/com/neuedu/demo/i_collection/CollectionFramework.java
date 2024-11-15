@@ -22,6 +22,8 @@ import java.util.*;
           2. 如果存储的元素没有实现 Comparable 接口，也可以在 new TreeSet 对象的时候，给其传递一个 Comparator 的实现类对象
           ● HashSet ：基于哈希表的，它根据元素的哈希码来决定元素在内部数组中的位置，因此迭代顺序通常与添加顺序不同，并且是不确定的，不保证存和取的顺序。
           需要存储的对象复写 Object 类中的 hashCode() 和 equals() 方法。（线程不安全）
+            ● LinkedHashSet：LinkedHashSet是HashSet的子类，并实现了Set接口。
+
 
   ■ Map：没有继承 Iterable 接口，不能直接使用 forEach 和迭代器对 map 进行遍历，双列集合，存储一对元素，即键值对（key，value）。
          可以使用 entrySet() 方法，返回一个存有 Map 集合所有键值对的 Set 集合，然后再去遍历。
@@ -117,6 +119,5 @@ public class CollectionFramework {
         map.forEach((key, value) -> {
             System.out.println(key + "->" + value);
         });
-
     }
 }
