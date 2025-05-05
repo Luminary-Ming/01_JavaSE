@@ -1,0 +1,16 @@
+### IntelliJ IDEA ###
+.idea/
+_idea/
+*.iws
+*.iml
+*.ipr
+target/
+out/
+src/resources/rebel.xml
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+### VS Code ###
+.vscode/
+_vscode/
+node_modules/
