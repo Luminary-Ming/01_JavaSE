@@ -41,7 +41,6 @@ public class Rectangle {
                 && Math.abs(this.center.y) + Math.abs(anotherRectangle.center.y) <= this.height + anotherRectangle.height
                 ? "两个矩形相交" : "两个矩形相离";
     }
-
 }
 /*
     算法;

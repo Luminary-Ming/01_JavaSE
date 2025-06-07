@@ -39,8 +39,5 @@ public class Math10 {
             }
             i++;
         }
-
-
-
     }
 }

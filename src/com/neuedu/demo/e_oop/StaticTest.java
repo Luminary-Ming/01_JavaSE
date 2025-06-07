@@ -2,7 +2,7 @@ package com.neuedu.demo.e_oop;
 
 public class StaticTest {
     /**
-     * static 关键字
+     * static 关键字 [ˈstætɪk] 丝带忒克
      * 可以修饰类，但只能是内部类
      * 1. 成员内部类（ field inner class ）
      * 2. 静态内部类（由 static 关键字修饰的成员内部类）

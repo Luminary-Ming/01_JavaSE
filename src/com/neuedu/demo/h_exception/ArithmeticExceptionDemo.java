@@ -33,3 +33,8 @@ public class ArithmeticExceptionDemo {
         }
     }
 }
+/*
+    throw 和 throws 的区别：
+    1. throw 主动抛出异常对象，throws 声明方法可能抛出的异常类型
+    2. throw 在 try-catch 代码块中，throws 在方法的参数列表后
+ */

@@ -11,3 +11,17 @@ public class Exception01 {
         System.out.println("Out of the block");  // Out of the block
     }
 }
+/*
+    java中常见的异常：
+    RuntimeException（运行时异常）：这类异常不需要在方法签名中声明，也不需要显式捕获
+        ArrayIndexOutOfBoundsException
+        IndexOutOfBoundsException
+        NullPointerException
+        ClassCastException  类型转换错误
+        NumberFormatException
+    Checked Exception（编译异常）：这类异常必须在方法签名中声明，或在方法内部捕获处理
+        IOException
+        SQLException
+        ClassNotFoundException
+        FileNotFoundException
+ */
